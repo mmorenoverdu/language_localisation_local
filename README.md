@@ -14,8 +14,8 @@ A language localiser is a **system that dynamically selects the appropriate text
 
 This demo includes:
 - A PsychoPy experiment file (.psyexp) that contains a template to illustrate the use of a language localisation.
-- A localiser Excel file (`language_localiser.xlsx`) that contains rows for each language and ISO 639 language codes (e.g., English - EN, Spanish - ES, German - DE, French - FR).
-- A localisation Excel file (`messages.xlsx`) that contains rows for each message to display and columns with ISO codes for each translation (e.g., EN: Hello, ES: Hola, DE: FR: Bonjour)
+- A localiser Excel file (`language_localiser.xlsx`) that contains rows for each language and ISO 639 language codes (e.g., English - EN, Spanish - ES, French - FR).
+- A localisation Excel file (`messages.xlsx`) that contains rows for each message to display and columns with ISO codes for each translation (e.g., EN: Hello, ES: Hola, FR: Bonjour)
 - A `language_settings` routine at the beginning of the experiment which loads the messages variable set at the beginning of the experiment, which can be selected manually or through participant input.
 - Builder components that use the `$` syntax to pull the appropriate text based on the current language (e.g., `$welcome_msg`).
 - Example routines demonstrating how to set up this logic with minimal code components.
