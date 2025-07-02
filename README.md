@@ -1,6 +1,6 @@
 # Language Localisation demo in PsychoPy (local)
 
-You have created a [PsychoPy experiment](https://psychopy.org/index.html). PsychoPy is great because it is **open-source** (free), and therefore easy to exchange with other researchers or your collaborators.
+You have created a [PsychoPy experiment](https://psychopy.org/index.html). PsychoPy is great because it is **open-source** (free), and therefore easy to exchange with other researchers or your collaborators, reuse, reproduce, etc.
 
 In your experiment, you **present text to the participant** with instructions or other information. You want to present the text **in the participants' most comfortable language**, as this will enhance their comprehension of the task. You have created your experiment in a **single language**, but you might want to use it in **another language** if your new participants' mother tongue is different. Or you might want to share your experiment with a colleague who works with participants who speak in another language. You could translate word-by-word all your text every time a new language is necessary, but this is tedious and prone to errors. The easiest way to make your experiment scalable and robust is to implement a **language localisation**. This demo and template shows you how to implement it when working in the Builder mode of a PsychoPy local experiment.
 
